@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+}
+
+.planets {
+  width: 40%;
+  padding: 40px;
+}
+
+.planets h1 {
+  margin: auto;
+  text-align: center;
+  font-size: 40px;
+  text-shadow: 5px 10px 11px rgb(208, 203, 203);
+}
+.table {
+  margin-top: 30px;
+  background-color: rgb(232, 228, 228);
+  border-color: rgb(123, 123, 205);
+  color: black;
+}
+
+.ask {
+  width: 40%;
+  margin-top: 30px;
+  text-align: center;
+}
+legend {
+  font-size: 30px;
+}
+
+.name input,
+.email input {
+  background-color: rgb(214, 219, 217);
+  height: 20px;
+}
+
+.name {
+  margin-left: -25px;
+}
+
+.btn input {
+  height: 30px;
+  padding: 10px;
+}
